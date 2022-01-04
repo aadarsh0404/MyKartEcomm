@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+.redColor{
+    color: red !important;
+  }
+  
+  .greenColor{
+    color: green !important;
+  }

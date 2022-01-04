@@ -1,0 +1,56 @@
+.LogoContainer {
+  max-width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+
+.LogoContainer > img {
+  width: 60%;
+  height: 60%;
+  transition: 0.5s all;
+}
+
+.LogoContainer > img:hover{
+  filter: drop-shadow(0 0 10px tomato);
+}
+
+.BodyContainer {
+  max-width: 100%;
+  text-align: center;
+}
+
+.BodyContainer > p {
+  color: rgba(0, 0, 0, 0.693);
+  font: 200 1rem "Roboto";
+  margin-top: 5px;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  transition: 0.5s all;
+}
+
+a:hover {
+  color: tomato;
+}
+
+@media screen and (max-width: 600px) {
+  .LogoContainer {
+      margin-top: 20%;
+  }
+  .LogoContainer > img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .BodyContainer{
+      margin-top: 10%;
+  }
+  Footer {
+    margin-top: 30%;
+  }
+}

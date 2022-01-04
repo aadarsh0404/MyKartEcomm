@@ -1,0 +1,12 @@
+.MuiSpeedDial-root{
+    position: fixed;
+    right: 4vmax;
+    top: 4vmax;
+    z-index: 11;
+}
+
+.MuiSpeedDial-root > button > span > img{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}

@@ -1,0 +1,66 @@
+footer{
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: rgb(34,34,34);
+    color: white;
+    display: flex;
+    align-items: center; 
+}
+
+#download{
+    font-family: 'Roboto';
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#download p {
+    text-align: center;
+}
+
+#download img{
+    width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+}
+
+#copyright{
+    font-family: 'Roboto';
+    width: 60%;
+    text-align: center;
+}
+
+#copyright h1{
+    color: rgb(17,156,235);
+    font-size: 4vmax;
+}
+
+#copyright p{
+    width: 60%;
+    margin: 1vmax auto;
+    font-size: small;
+}
+
+#followus{
+    font-family: 'Roboto';
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+}
+
+#followus h4{
+    font-size: 1.4vmax;
+}
+
+#followus a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vmax;
+    margin: 0.5vmax;
+}
+
+#followus a:hover{
+    color: crimson;
+    transition: 0.5s;
+}

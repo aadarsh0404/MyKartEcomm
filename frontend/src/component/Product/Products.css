@@ -1,0 +1,260 @@
+.productsHeading {
+  margin: 2vmax auto;
+  width: 15vw;
+  border-bottom: 1px solid rgba(0, 0, 0, 1.17);
+  padding: 2vmax;
+  font: 500 1.5vmax "Roboto";
+  text-align: center;
+}
+.products .no_product {
+  align-items: center;
+}
+.products .sorry {
+  width: 40vmax;
+  height: 40vmax;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5vmax;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.paginationBox {
+  display: flex;
+  justify-content: center;
+  margin: 6vmax;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+}
+
+.page-item {
+  background-color: white;
+  list-style: none;
+  border: 1px solid rgba(0, 0, 0, 0.17);
+  padding: 1vmax 1.5vmax;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.page-item:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.page-item:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.page-link {
+  text-decoration: none;
+  font: 300 0.7vmax "Roboto";
+  color: rgb(80, 80, 80);
+  transition: all 0.3s;
+}
+
+.page-item:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.page-item:hover .page-link {
+  color: black;
+}
+
+.pageItemActive {
+  background-color: tomato;
+}
+
+.pageLinkActive {
+  color: white;
+}
+
+.filterBox {
+  width: 10vmax;
+  position: absolute;
+  top: 10vmax;
+  left: 4vmax;
+}
+
+.minmax {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.range {
+  margin: 1vmax 0;
+  width: 10vmax;
+  box-shadow: none;
+  border-radius: 4px;
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+
+.btn-filter {
+  background-color: tomato;
+  color: white;
+  padding: 0 1vmax;
+  border: none;
+  text-align: center;
+  padding: 3px;
+  width: 10.7vmax;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.btn-filter:hover {
+  background-color: rgb(190, 73, 53);
+  color: white;
+  padding: 0 1vmax;
+  border: none;
+  text-align: center;
+  padding: 3px;
+  width: 11vmax;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.category {
+  margin-top: 15vmax;
+}
+
+.categoriesBox {
+  padding: 5px 0;
+}
+
+.category-link {
+  list-style: none;
+  color: rgba(0, 0, 0, 0.6);
+  font: 400 0.8vmax "Roboto";
+  margin: 0.4vmax;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.category-link:hover {
+  list-style: none;
+  color: tomato;
+  font: 400 0.8vmax "Roboto";
+  margin: 0.4vmax;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+fieldset {
+  border: 1px solid lightgray;
+}
+@media screen and (max-width: 1350px) {
+  .filterBox {
+    position: absolute;
+  }
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5vmax;
+    justify-content: center;
+    min-height: 80vh;
+    margin: 0 10%
+  }
+  .category {
+    margin-top: 25vmax;
+  }
+
+  .category-link {
+    list-style: none;
+    color: rgba(0, 0, 0, 0.6);
+    font: 400 1.2vmax "Roboto";
+    margin: 0.4vmax;
+    cursor: pointer;
+    transition: 0.5s all;
+  }
+
+  .category-link:hover {
+    list-style: none;
+    color: tomato;
+    font: 400 1.2vmax "Roboto";
+    margin: 0.4vmax;
+    cursor: pointer;
+    transition: 0.5s all;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .filterBox {
+    width: 20vmax;
+    position: static;
+    margin: auto;
+  }
+  .minmax {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    position: static;
+    width: 20vmax;
+    align-items: center;
+  }
+
+  .range {
+    margin: 1vmax 0;
+    width: 20vmax;
+    box-shadow: none;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  .btn-filter {
+    width: 20vmax;
+    background-color: tomato;
+    color: white;
+    padding: 0 1vmax;
+    border: none;
+    text-align: center;
+    padding: 3px;
+    margin-top: 7px;
+    width: 20.8vmax;
+    cursor: pointer;
+  }
+
+  .btn-filter:hover {
+    background-color: rgb(190, 73, 53);
+    color: white;
+    padding: 0 1vmax;
+    border: none;
+    text-align: center;
+    padding: 3px;
+    margin-top: 7px;
+    width: 20.8vmax;
+    cursor: pointer;
+  }
+
+  .page-link {
+    font: 300 1.7vmax "Roboto";
+  }
+
+  .category {
+    margin-top: 10vmax;
+  }
+
+  .category-link {
+    list-style: none;
+    color: rgba(0, 0, 0, 0.6);
+    font: 400 1.8vmax "Roboto";
+    margin: 0.4vmax;
+    cursor: pointer;
+    transition: 0.5s all;
+  }
+
+  .category-link:hover {
+    list-style: none;
+    color: tomato;
+    font: 400 1.6vmax "Roboto";
+    margin: 0.4vmax;
+    cursor: pointer;
+    transition: 0.5s all;
+  }
+}
